@@ -12,14 +12,14 @@ import os, re, sys, random, math, subprocess
 ########### Global Parameters ###########
 
 TOOL_PATH = 'C:\\Users\\Xia\\Work\\Toolkits'
-NB_LEARN_EXE = TOOL_PATH + '\\xia-nb_v1.16\\windows\\nb_learn.exe'
-NB_CLASSIFY_EXE = TOOL_PATH + '\\xia-nb_v1.16\\windows\\nb_classify.exe'
-SVM_LEARN_EXE = TOOL_PATH + '\\svm_light\\svm_learn.exe'
-SVM_CLASSIFY_EXE = TOOL_PATH + '\\svm_light\\svm_classify.exe'
+NB_LEARN_EXE = TOOL_PATH + '\\libnb-1.16\\windows\\nb_learn.exe'
+NB_CLASSIFY_EXE = TOOL_PATH + '\\libnb-1.16\\windows\\nb_classify.exe'
 LIBSVM_LEARN_EXE = TOOL_PATH + '\\libsvm-3.18\\windows\\svm-train.exe'
 LIBSVM_CLASSIFY_EXE = TOOL_PATH + '\\libsvm-3.18\\windows\\svm-predict.exe'
 LIBLINEAR_LEARN_EXE = TOOL_PATH + '\\liblinear-1.94\\windows\\train.exe'
 LIBLINEAR_CLASSIFY_EXE = TOOL_PATH + '\\liblinear-1.94\\windows\\predict.exe'
+SVM_LEARN_EXE = TOOL_PATH + '\\svm_light\\svm_learn.exe'
+SVM_CLASSIFY_EXE = TOOL_PATH + '\\svm_light\\svm_classify.exe'
 
 LOG_LIM = 1E-300
 
